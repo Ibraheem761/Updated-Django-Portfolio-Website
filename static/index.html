@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Ibraheem El Ansari</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/IE.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/alpha-echo');
+    </style>
+</head>
+
+<body id="page-top">
+    <canvas id="nokey" width="800" height="800">
+    </canvas>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" style="font-family: 'Alpha Echo', sans-serif; font-size: 5vh;"
+                href="#page-top">IE</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0" style="padding-top: 0.5vh;">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end" style="width: 70%;">
+                    <h1 class="text-white font-weight-bold">
+                        <div class="typing-container">
+                            <span id="sentence" class="sentence">I am Ibraheem, </span>
+                            <span id="feature-text"></span>
+                            <span class="input-cursor"></span>
+                        </div>
+                    </h1>
+                    <hr class="divider" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap
+                        framework! Just download a theme and start customizing, no strings attached!</p>
+                    <a id="resumedownload" class="btn btn-primary btn-xl" href="/assets/Resume - Ibraheem El Ansari.pdf"
+                        download>Download resume <img style='height: 1.5rem; padding-left: 3px;'
+                            src="assets/download.svg" alt=""> </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">I've got what you need !</h2>
+                    <hr class="divider divider-light" />
+                    <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and
+                        running in no time! Choose one of our open source, free to download, and easy to use themes! No
+                        strings attached!</p>
+                    <a id="contactme" class="btn btn-light btn-xl" href="#services">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">What I can offer :</h2>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-file-code fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Full Stack <br> Development</h3>
+                        <p class="text-muted mb-0">Fully functioning websites from front-end to back-end</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Data science <br> web aplications</h3>
+                        <p class="text-muted mb-0">Intuitive and comprehensive Python solutions utilising Data</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-clipboard-data fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Data Analytics & Reports</h3>
+                        <p class="text-muted mb-0">
+                            <span id="sentence2" class="sentence2">Drive insights to </span>
+                            <span id="feature-text2"></span> <br>
+                            <span class="input-cursor"></span>
+                            <span id="sentence2" class="sentence2">strategies and products </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-book fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">Effective and thorough research</h3>
+                        <p class="text-muted mb-0">Google is my best friend, he's never let me down</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio-->
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup1()">×</div>
+            <h2>Agriculture sampling frames</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup2()">×</div>
+            <h2>Start-up website (LACTIC)</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-3">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup3()">×</div>
+            <h2>Individual Preference Clustering Project</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-4">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup4()">×</div>
+            <h2>Private Institute website (ESSTI)</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-5">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup5()">×</div>
+            <h2>Moroccan Pastries Classifier</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup-6">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup6()">×</div>
+            <h2>Moroccan Stock Market Analysis</h2>
+            <p class="projetparagraph">This project is an analysis of an Agricultural dataset that we collected on my
+                internship with the
+                Ministry of Agriculture, Fisheries, Rural Development, Water and Forests in Morocco, where we applied
+                different sampling designs with the aim of choosing the most proper one for future surveys.
+                In addition to EDA and inference, you will find : Simple Random Sampling, Systematic Sampling,
+                Replicated Sampling, PPS Sampling, and Stratified Sampling</p>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <h2 class="text-center mt-0">Projects I've worked on</h2>
+        <hr class="divider" />
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6" style="cursor: pointer;">
+                    <a class="portfolio-box" onclick="togglePopup1()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Data science</div>
+                            <div class="project-name">Agriculture sampling frames</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" onclick="togglePopup2()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Web Development</div>
+                            <div class="project-name">Start-up website (LACTIC)</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" onclick="togglePopup3()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Data science</div>
+                            <div class="project-name">Individual Preference Clustering Project</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" onclick="togglePopup4()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Web Development</div>
+                            <div class="project-name">Private Institute website (ESSTI)</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" onclick="togglePopup5()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Data science</div>
+                            <div class="project-name">Moroccan Pastries Classifier</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" onclick="togglePopup6()" title="Project Name">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">Data science</div>
+                            <div class="project-name">Moroccan Stock Market Analysis</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Projects section v.4 -->
+    <section class="text-center my-5" style="margin: 0 3rem">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Projects I've worked on</h2>
+        <hr class="divider" />
+        <!-- Section description -->
+        <p class="grey-text text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-image one">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="purple-text">
+                                <i class="fas fa-chart-pie" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow">Data Analysis</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Agriculture sampling frames</strong>
+                            </h3>
+                            <p class="pb-3">This project is an analysis of an Agricultural dataset that we collected on
+                                my internship with the Ministry of Agriculture in Morocco. We applied different sampling
+                                designs with the aim of choosing
+                                the most proper one for future surveys.
+                            </p>
+                            <a href="https://github.com/Ibraheem761/Streamlit_Agriculture_EN_FR" target="blank"
+                                class="btn btn-rounded btn-md"><i id="innericon" class="fas fa-code-branch left"></i>
+                                View code</a>
+                            <a href="https://share.streamlit.io/ibraheem761/streamlit_agriculture_en_fr/main/st_Agr.py"
+                                target="blank" class="btn btn-rounded btn-md"><i id="innericon"
+                                    class="fas fa-laptop-code left"></i> Web App</a>
+                            <a href="Etude maraîchère.html" target="blank" class="btn btn-rounded btn-md"><i
+                                    id="innericon" style="margin-right: 7px;" class="far fa-file left"></i>Notebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-image two">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="purple-text">
+                                <i class="fas fa-brain" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow;">Deep Learning</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Moroccan Pastries Classifier</strong>
+                            </h3>
+                            <p class="pb-3">The aim of this project was to create a CNN image recognition web app that
+                                classifies 10 different types of the most common Moroccan pastries. <br>
+                                The Web app can be used by tourists to check the name of pastries as they enjoy their
+                                stay in Morocco.
+                            </p>
+                            <a href="https://github.com/Ibraheem761/Moroccan-Pastries-Classifier" target="blank"
+                                class="btn btn-rounded btn-md"><i id="innericon" class="fas fa-code-branch left"></i>
+                                View code</a>
+                            <a href="https://share.streamlit.io/ibraheem761/moroccan-pastries-classifier/app.py"
+                                target="blank" class="btn btn-rounded btn-md"><i id="innericon"
+                                    class="fas fa-laptop-code left"></i> Web App</a>
+                            <a href="Classification.html" target="blank" class="btn btn-rounded btn-md"><i
+                                    id="innericon" style="margin-right: 7px;" class="far fa-file left"></i>Notebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-4">
+                <div class="card card-image three">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="pink-text">
+                                <i class="fas fa-globe" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow">Web Development</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Tech Start-up</strong>
+                            </h3>
+                            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                                laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi
+                                architecto
+                                nulla ipsum dignissimos. Odit sed qui, dolorum!
+                            </p>
+                            <a href="http://www.lactic.ma/" target="blank" class="btn btn-rounded btn-md"><i
+                                    id="innericon" class="fas fa-laptop-code left"></i>Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-image four">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="green-text">
+                                <i class="fas fa-globe" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow">Web Development</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Private higher education institute</strong>
+                            </h3>
+                            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
+                                laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi
+                                architecto
+                                nulla ipsum dignissimos. Odit sed qui, dolorum!
+                            </p>
+                            <a href="https://essti0.herokuapp.com/" target="blank" class="btn btn-rounded btn-md"><i
+                                    id="innericon" class="fas fa-laptop-code left"></i>Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-4">
+                <div class="card card-image five">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="pink-text">
+                                <i class="fas fa-project-diagram" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow;">Machine learning</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Individual Preferences Clustering</strong>
+                            </h3>
+                            <p class="pb-3">This is a fun Clustering project based on a small Dataset gathered from univeristy
+                                students. Individuals with the same preferences are grouped together. Relationships between certain variable categories like favorite music genre and favorite language are noticed.
+                            </p>
+                            <a href="https://github.com/Ibraheem761/Clustering-of-Individuals-by-Preferences"
+                                target="blank" class="btn btn-rounded btn-md"><i id="innericon"
+                                    class="fas fa-code-branch left"></i> View code</a>
+                            <a href="Clustering.html" target="blank" class="btn btn-rounded btn-md"><i id="innericon"
+                                    style="margin-right: 7px;" class="far fa-file left"></i>Notebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-image six">
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+                        <div>
+                            <h6 class="green-text">
+                                <i class="fas fa-project-diagram" style="color: greenyellow; margin-right: 3px;"></i>
+                                <strong style="color: greenyellow;">Machine learning</strong>
+                            </h6>
+                            <h3 class="py-3 font-weight-bold">
+                                <strong>Moroccan Stock Market Analysis</strong>
+                            </h3>
+                            <p class="pb-3">The <b>MASI</b> index (Moroccan All Shares Index) is a Morrocan stock index.<br>
+                                In this project we
+                                proved the Moroccan Stock Market to be <b>inefficient</b>, i.e, Prices do no reflect
+                                all information, through a model that predicts the MASI index with high accuracy.
+                            </p>
+                            <a href="https://github.com/Ibraheem761/Finance-Dashboard---Is-the-Moroccan-Stock-Market-Efficient"
+                                target="blank" class="btn btn-rounded btn-md"><i id="innericon"
+                                    class="fas fa-code-branch left"></i> View code</a>
+                            <a href="https://masi-dashboard.herokuapp.com/" target="blank"
+                                class="btn btn-rounded btn-md"><i id="innericon" class="fas fa-laptop-code left"></i>
+                                Web App</a>
+                            <a href="MASI-Time-Series.html" target="blank" class="btn btn-rounded btn-md"><i
+                                    id="innericon" style="margin-right: 7px;" class="far fa-file left"></i>Notebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </section>
+    <!-- Projects section v.4 -->
+
+    <!-- Call to action-->
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+            <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">Let's Get In Touch!</h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we
+                        will
+                        get back to you as soon as possible!</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                data-sb-validations="required" />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                data-sb-validations="required,email" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text"
+                                placeholder="Enter your message here..." style="height: 10rem"
+                                data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton"
+                                type="submit">Send</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+212 658 135 784 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="social d-flex justify-content-center">
+        <a class="mx-2" target="_blank" href="https://www.linkedin.com/in/ibraheem-el-ansari-6b87601ab/"><i
+                class="fab fa-linkedin fa-lg"></i></a>
+        <a class="mx-2" target="_blank" href="mailto:elansariibraheem@gmail.com"><i class="fab fa-google fa-lg"></i></a>
+        <a class="mx-2" target="_blank" href="https://github.com/Ibraheem761"><i class="fab fa-github fa-lg"></i></a>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer small text-center text-black-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; Ibraheem El Ansari 2021</div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+</body>
+
+</html>
