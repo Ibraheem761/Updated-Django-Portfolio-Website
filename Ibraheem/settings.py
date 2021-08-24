@@ -139,7 +139,9 @@ STATICFILES_DIRS = [
             os.path.join(BASE_DIR, 'static')
        ]
 
-
+import sys
+if sys.argv[1] != 'runserver':
+    STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
 # Default primary key field type
