@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-yq^w^v&gzm^sk@rxw)y7(wd%oqpk153_9-&ll6os_f@jxj)eoz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '134.122.92.72']
+ALLOWED_HOSTS = ['']
 
 
 # Application definition
@@ -76,24 +76,13 @@ WSGI_APPLICATION = 'Ibraheem.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if DEBUG:
-    DATABASES = {
+DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'portfolio',
-            'USER': 'ibraheem',
-            'PASSWORD': 'meeharbi',
-            'HOST': 'localhost',
-            'PORT': '',
-        }
-    }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -133,9 +122,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, 'static')
-]
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+
 
 
 
