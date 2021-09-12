@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yq^w^v&gzm^sk@rxw)y7(wd%oqpk153_9-&ll6os_f@jxj)eoz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['www.ibraheem-elansari.com','ibraheem761.pythonanywhere.com']
 
 
 # Application definition
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'Ibraheem.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['TEMPLATES'],
+        'DIRS': ['Updated-Django-Portfolio-Website/TEMPLATES'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,8 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/home/Ibraheem761/Updated-Django-Portfolio-Website/static'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 
 

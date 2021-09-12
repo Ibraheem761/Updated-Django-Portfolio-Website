@@ -10,6 +10,10 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11808,7 +11812,7 @@ header.masthead {
       rgba(126, 101, 83, 0.6) 0%,
       rgba(92, 77, 66, 0.6) 100%
     ),
-    url("../static/lactic.png");
+    url("../static/lactic.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11822,7 +11826,7 @@ header.masthead {
       rgba(92, 77, 66, 0.5) 0%,
       rgba(92, 77, 66, 0.5) 100%
     ),
-    url("../static/essti.png");
+    url("../static/essti.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12063,7 +12067,7 @@ header.masthead .h1 {
   z-index:99999;
   display:none;
 }
- 
+
 .popup .content {
   position:absolute;
   top:50%;
@@ -12099,11 +12103,11 @@ header.masthead .h1 {
   text-align:center;
   border-radius:50%;
 }
- 
+
 .popup.active .overlay {
   display:block;
 }
- 
+
 .popup.active .content {
   transition:all 300ms ease-in-out;
   transform:translate(-50%,-50%) scale(1);
@@ -12178,6 +12182,12 @@ footer {
     background: linear-gradient(black, grey);
     border-radius: 2rem 0px 0px 2rem
   }
+
+  .btn.btn-rounded.btn-md,  .btnfilter  {
+    margin-top: 5px;
+}
+
+
 }
 
 
